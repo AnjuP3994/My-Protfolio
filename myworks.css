@@ -1,0 +1,25 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/1094453686/photo/studio-photography-black.jpg?b=1&s=170667a&w=0&k=20&c=O1hXw_s1zI145x-aHrAFf4NdBzJM0P6CIIRfI7iET2M=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40cm;
+}
+.heading{
+    font-size: 1.5cm;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.card{
+    width: 23rem; 
+    background-color: rgba(46, 46, 46, 0.705);
+    border: 3px;
+    border-color: black;
+    border-style: groove;
+}
+.card:hover{
+    -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}

@@ -1,0 +1,28 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/1094453686/photo/studio-photography-black.jpg?b=1&s=170667a&w=0&k=20&c=O1hXw_s1zI145x-aHrAFf4NdBzJM0P6CIIRfI7iET2M=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 31.5cm;
+}
+.heading{
+    font-size: 1.5cm;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.div1{
+    border-left: 6px solid burlywood;
+    height: 250px;
+}
+.div2{
+    border-left: 6px solid burlywood;
+    height: 180px;
+}
+.div3{
+    border-left: 6px solid burlywood;
+    height: 280px;
+}
+.bar{
+    background-color: cadetblue;
+}

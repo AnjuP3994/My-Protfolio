@@ -1,0 +1,71 @@
+/* left side */
+#header{
+    background-color: black;
+    width: 9cm; height: 22.6cm;
+    position: sticky;
+    top: 0;
+}
+#name{
+    margin-left: 2.3cm;
+}
+.socialmedia{
+    margin-left: 1.3cm;
+}
+.c1{
+    color: white;
+    text-decoration: none;
+    margin-left: 1.4cm;
+    position: relative;
+}
+.c1::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 20px;
+    border-top: 5px solid whitesmoke;
+    border-left: 5px solid whitesmoke;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+.c1:hover::before{
+    left: -10px;
+    top: -10px;
+    opacity: 1;
+}
+.c1::after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 20px;
+    border-right: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    right: 0;
+    bottom: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+.c1:hover::after{
+    right: -10px;
+    bottom: -10px;
+    opacity: 1;
+}
+/* Background image */
+.bgimg{
+    background-image: url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio-thumbnail.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 22.6cm;
+}
+.hh1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2cm;
+}
+.hh2{
+    font-family: 'Signika Negative', sans-serif;
+}
+#btn{
+    font-size: 0.7cm;
+}
